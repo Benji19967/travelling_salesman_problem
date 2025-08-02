@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "tsp"
+version = "0.1.0"
+description = "TSP"
+authors = [ "Benjamin Labrecque" ]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+pre-commit = "^3.2.2"
+black = "^23.1.0"
+mypy = "^1.10.0"
